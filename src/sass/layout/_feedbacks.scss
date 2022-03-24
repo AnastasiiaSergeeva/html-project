@@ -1,0 +1,258 @@
+.reviews {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+
+   @media screen and (min-width: 1344px) {
+      padding-top: 130px;
+      padding-bottom: 130px;
+  }
+ 
+    
+  
+    & .reviews-title {
+      text-align: center;
+  
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+
+      @media screen and (min-width: 768px) {
+        font-size: 26px;
+     }
+
+     @media screen and (min-width: 1344px) {
+        font-size: 46px;
+        line-height: 130%;
+    }
+  }
+}
+
+  .reviews-text {
+    max-width: 280px;
+  
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+  
+    background-color: var(--white-color);
+    box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+
+    @media screen and (min-width: 768px) {
+      max-width: 688px;
+
+      display: flex;
+
+      margin-top: 30px;
+      padding: 40px;
+
+      position: relative;
+   }
+
+   @media screen and (min-width: 1344px) {
+    max-width: 1090px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 50px 112px 51px 82px;
+  }
+  
+    & .reviews-position {
+      @media screen and (min-width: 768px){
+        margin-right: 46px;
+     }
+    }
+
+    & .reviews-image {
+      width: 90px;
+      height: 90px;
+  
+      margin-left: auto;
+      margin-right: auto;
+
+      @media screen and (min-width: 768px) {
+        width: 150px;
+        height: 150px;
+     }
+    }
+  
+    & .reviews-svg {
+      display: block;
+  
+      margin-top: 26px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+     & .reviews-subtitle {
+        margin-top: 26px;
+    
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 1.214;
+        letter-spacing: 0.08em;
+    
+        text-align: center;
+    
+        color: var(--orange-color);
+
+        @media screen and (min-width: 768px) {
+          margin-top: 0;
+
+          text-align: start;
+
+          font-size: 20px;
+          line-height: 1.2;
+      }
+
+        @media screen and (min-width: 1344px) {
+          font-size: 30px;
+          line-height: 1.233;
+      }
+    }
+
+    & .reviews-slogan {
+      max-width: 240px;
+  
+      margin-top: 10px;
+  
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 1.25;
+      letter-spacing: 0.08em;
+  
+      text-align: center;
+  
+      color: var(--grey-color);
+
+      @media screen and (max-width: 767px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      @media screen and (min-width: 768px) {
+        max-width: 412px;
+
+        margin-top: 20px;
+
+        text-align: start;
+      }
+
+      @media screen and (min-width: 1344px) {
+        max-width: 438px;
+
+        margin-top: 10px;
+        
+        font-size: 14px;
+        line-height: 1.214;
+      }
+    }
+
+    & .reviews-excerpt {
+      max-width: 240px;
+  
+      margin-top: 10px;
+  
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 1.666;
+  
+      text-align: center;
+  
+      color: var(--list-color);
+  
+      & .reviews-quote {
+        text-decoration-skip-ink: none;
+        text-decoration: underline;
+
+        color: var(--orange-color);
+      }
+
+      @media screen and (max-width: 767px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      @media screen and (min-width: 768px) {
+        max-width: 412px;
+
+        margin-top: 20px;
+
+        text-align: start;
+      }
+
+      @media screen and (min-width: 1344px) {
+        max-width: 706px;
+
+        font-size: 18px;
+        line-height: 1.555;
+      }
+    }
+
+    & .reviews-list {
+      @media screen and (min-width: 768px) {
+        display: flex !important;
+
+        margin-right: 46px;
+      }
+
+      @media screen and (min-width: 1344px) {
+          margin-right: 40px;
+      }
+    }
+  }
+  
+  .slick-prev {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    font-size: 0;
+
+    z-index: 10;
+
+    background-image: url(../images/arrowrith.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 15px;
+    background-color: transparent;
+
+    border: transparent;
+    
+    @media screen and (min-width: 768px){
+      bottom: 50%;
+      left: -7%;
+   }
+  }
+  .slick-next {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    font-size: 0;
+
+    z-index: 10;
+
+    background-image: url(../images/arrowleft.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 15px;
+    background-color: transparent;
+
+    border: transparent;
+
+    @media screen and (min-width: 768px){
+     bottom: 50%;
+     right: -7%;
+   }
+  }
+  
+
+  

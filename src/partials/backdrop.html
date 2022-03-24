@@ -1,0 +1,59 @@
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="button" data-modal-close>
+            <svg class="button-svg" width="11" height="11">
+                <use href="./images/spryite-header.svg#icon-vector">
+                </use>
+            </svg>
+        </button>
+        <div class="modal-list">
+            <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
+            <form>
+                <div class="modal-label">
+                    <label for="name">Имя</label>
+                    <span class="modal-form">
+                        <input class="form-margin" type="text" name="name" id="name" placeholder=" ">
+                        <svg class="modal-svg" width="12" height="12">
+                            <use href="./images/spryite-header.svg#icon-chel">
+                            </use>
+                        </svg>
+                    </span>
+                </div>
+                <div class="modal-label label-margin">
+                    <label for="tel">Телефон</label>
+                    <span class="modal-form">
+                        <input class="form-margin" type="tel" name="tel" id="tel">
+                        <svg class="modal-svg" width="13" height="13">
+                            <use href="./images/spryite-header.svg#icon-tele">
+                            </use>
+                        </svg>
+                    </span>
+                </div>
+                <div class="modal-label label-margin">
+                    <label for="mail">Почта</label>
+                    <span class="modal-form">
+                        <input class="form-margin" type="email" name="mail" id="mail">
+                        <svg class="modal-svg" width="15" height="12">
+                            <use href="./images/spryite-header.svg#icon-meil">
+                            </use>
+                        </svg>
+                    </span>
+                </div>
+                <div class="modal-label label-margin">
+                    <label for="coment">Комментарий</label>
+                    <textarea name="coment" class="form-textarea form-margin" id="coment"
+                        placeholder="Введите текст"></textarea>
+                </div>
+                <div class="modal-checkbox">
+                    <input type="checkbox" id="policy" name="policy" value="accept-policy"
+                        class="modal-checkbox-policy visually-hidden">
+                    <label for="policy" class="modal-policy">Соглашаюсь с рассылкой и принимаю <a href=""
+                            class="modal-link">Условия
+                            договорa</a>
+                    </label>
+                </div>
+                <button type="submit" class="modal-button">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
