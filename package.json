@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/Rom0105/my-first-project",
+  "homepage": "https://github.com/AnastasiiaSergeeva/html-project",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url /my-first-project/",
+    "predeploy": "npm run build -- --public-url /html-project/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
